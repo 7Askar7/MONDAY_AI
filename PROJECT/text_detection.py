@@ -6,7 +6,8 @@ from tika import parser
 def main():
     l = []
     tika.initVM()
-    parsed_pdf = parser.from_file("/Users/askarka/Documents/GitHub/MONDAY_AI/PROJECT/Резюме_Аскар.pdf")
+    path = str(input("Введите путь до вашего резюме: "))
+    parsed_pdf = parser.from_file(path)
     print(parsed_pdf)
 
     for my_key, my_value in parsed_pdf["metadata"].items():
@@ -29,5 +30,5 @@ def main():
         new.append(j.replace("\xa0", " "))
     x = "".join(new)
     return x
-main()
+
 

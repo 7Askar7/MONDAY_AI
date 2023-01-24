@@ -34,7 +34,7 @@
       <recent name="$PROJECT_DIR$/DZ" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.main">
+  <component name="RunManager" selected="Python.translate_resume">
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="MONDAY_AI" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -142,10 +142,10 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.main" />
-        <item itemvalue="Python.train" />
         <item itemvalue="Python.translate_resume" />
         <item itemvalue="Python.text_detection" />
+        <item itemvalue="Python.main" />
+        <item itemvalue="Python.train" />
         <item itemvalue="Python.tokenize_and_setting_metrics" />
       </list>
     </recent_temporary>
